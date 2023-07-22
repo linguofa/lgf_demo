@@ -1,18 +1,5 @@
-11
-22
-3
-3
-4
-4
-55
-66
-77
-88
-99
-10
-11
-
-#我这次来真的了
-#1.切到分支screenshot
-#2.修改文件，add，commit，或者push到远程分支
-#3.
+#1.切换到开发分支git pull -r
+#2.如果提示有未修改的话，就add，commit再执行上面命令
+#3.开发啊开发啊，然后add commit，开发完之后，就push上远程
+#然后执行合并commmit，准备合并到正式环境
+#git rebase -i HEAD~2git
